@@ -835,11 +835,34 @@ a {
 }
 /* WEB-DAY22_Code */
 
-
+.footer-links{
+    display:flex;
+    gap:24px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.footer-links a{
+    text-decoration:none;
+    color:#666666;
+    font-size:0.85rem;
+    transition:color0.3s ease;
+}
+.footer-links a:hover{
+    color:#036a6a;/*ホバーでブランドカラーに*/
+}
 /* ==========================================
  ▲▲▲▲▲  Footer（フッター）　▲▲▲▲
 ========================================== */
-
+.footer-bottom{
+    text-align:center;
+}
+.copright{
+    margin:0;
+    font-size:0.8rem;
+    color:#88888;
+}
+}
 /* レスポンシブ対応 */
 @media (max-width: 768px) {
     body {
